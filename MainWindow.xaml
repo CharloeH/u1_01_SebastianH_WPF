@@ -1,0 +1,22 @@
+<Window x:Class="u1_01_SebastianH_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:u1_01_SebastianH_WPF"
+        mc:Ignorable="d"
+        Title="Keegan is Smelly" Height="350" Width="525">
+    
+    <StackPanel>
+        <Label
+           x:Name="lblOutput"
+           FontSize="33"
+           FontStyle="Italic"
+           FontFamily="times new roman" Content="Hello World, My name is Sebastian"/>
+        <Button x:Name="btnClickMe" Content="----------" Click="btnClickMe_Click"/>
+        <Button x:Name="btnClickMe2" Content="----------" Click="btnClickMe2_Click"/>
+
+
+    </StackPanel>
+</Window>
+
